@@ -253,7 +253,7 @@ input:checked ~ .tab-answer {
     h1{
         font-size: 3rem;
         margin-top: 0px;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
     .tabs{
         display: flex;
@@ -268,9 +268,9 @@ input:checked ~ .tab-answer {
         gap: 50rem;
     }
     .tab-question{
-        font-size: 17px;
+        font-size: 15px;
     }
     .tab-answer{
-        font-size: 16px;
+        font-size: 14px;
     }
 }
