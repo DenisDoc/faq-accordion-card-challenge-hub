@@ -60,7 +60,6 @@ picture {
       scroll-behavior: auto !important;
     }
   }
-
   /*Variables*/
   :root{
     --background-1:hsl(273, 75%, 66%);
@@ -76,7 +75,6 @@ picture {
 
     --font-family:'Kumbh Sans', sans-serif;
   }
- 
   /*Helpers*/
   .sr-only {
     position: absolute;
