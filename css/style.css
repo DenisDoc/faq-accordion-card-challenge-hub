@@ -223,12 +223,12 @@ input:checked ~ .tab-answer {
     .img-cube{
         position:absolute;
         animation: left-right 1s ease-in-out forwards infinite alternate ;
-        width: 9vw;  
+        width: 11vw;  
         min-width: 2rem;
         display: block;    
         position: absolute;
-        margin-top: -1.2rem;
-        margin-left: -2rem;    
+        margin-top: -2.6rem;
+        margin-left: -3.8rem;    
     }
     .hero-img{
         position: relative;
