@@ -155,14 +155,12 @@ h1{
     display: flex;
     flex-direction: column;
     padding-bottom: 3rem
-
 }
 .tab {
     width: ;
     overflow: hidden;
     border-bottom: 1px solid var(--line-1);
     padding:0rem 1.5rem;
-
 }
 .tab-question {
     display: flex;
@@ -170,8 +168,7 @@ h1{
     padding: 1rem 0rem;
     cursor: pointer;
     align-items: center;
-    color: var(--text-neutral-1);
-    
+    color: var(--text-neutral-1);    
 }
 .tab-answer {
     max-height: 0;
@@ -181,7 +178,6 @@ h1{
     font-size: 12px;
     padding-right: 20px;
 }
-
 .tab-question:hover {
     color:var(--primary-text-2);
 }
@@ -194,7 +190,6 @@ h1{
 input:checked + .tab-question {
     color:var(--primary-text-1);
     font-weight: 700;
-    
 }
 input:checked + .tab-question::after {
     transform: rotate(180deg);
