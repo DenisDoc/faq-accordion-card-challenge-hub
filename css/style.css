@@ -186,7 +186,7 @@ h1{
     color:var(--primary-text-2);
 }
 .tab-question::after {
-    content: url(/images/icon-arrow-down.svg);
+    content: url(./images/icon-arrow-down.svg);
     color: var(--text-neutral-2);
     transition: all 0.35s;
 }
@@ -218,7 +218,7 @@ input:checked ~ .tab-answer {
         justify-content: center;
         min-height:44rem;
         position: relative;
-        background-image: url(/images/illustration-woman-online-desktop.svg), url(/images/bg-pattern-desktop.svg);
+        background-image: url(./images/illustration-woman-online-desktop.svg), url(./images/bg-pattern-desktop.svg);
         background-repeat: no-repeat;
         background-position: -7rem;
         background-clip: content-box;
@@ -257,9 +257,7 @@ input:checked ~ .tab-answer {
         min-width: 23rem;
         align-items: flex-start;
         margin-left:3rem;
-        
     }
-
     h1{
         font-size: 3rem;
         margin-top: 0px;
@@ -279,7 +277,6 @@ input:checked ~ .tab-answer {
     }
     .tab-question{
         font-size: 17px;
-
     }
     .tab-answer{
         font-size: 16px;
